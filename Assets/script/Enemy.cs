@@ -38,7 +38,7 @@ public class Enemy : MonoBehaviour
             Debug.Log(gameObject.name + "의 현재 체력" + enemyHP.getHp());
         }
     }
-    private void Move()//다음부턴 걍 콜라이더 쓰자 레이캐스트 좆같네
+    private void Move()//다음부턴 걍 콜라이더 쓰자
     {
         Debug.DrawRay(transform.position, Vector2.right * Range, Color.blue);//오른쪽 레이져
         Debug.DrawRay(transform.position, Vector2.left * Range, Color.red);//왼쪽 레이져
